@@ -1,0 +1,8 @@
+bison -d p.y
+flex l.l
+gcc -o parser_program lex.yy.c p.tab.c
+./parser_program
+
+start typing syntax
+
+ctrl+z, ctrl+d to output the result
