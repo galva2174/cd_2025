@@ -397,9 +397,9 @@ goto find_rule; \
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lexer.l"
+#line 1 "lexer360.l"
 #define INITIAL 0
-#line 2 "lexer.l"
+#line 2 "lexer360.l"
     #define YYSTYPE char*
     #include <unistd.h>
     #include "parser.tab.h"
@@ -558,7 +558,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 21 "lexer.l"
+#line 21 "lexer360.l"
 
 #line 564 "lex.yy.c"
 
@@ -653,77 +653,77 @@ do_action:	/* This label is used only to access EOF actions. */
 	{ /* beginning of action switch */
 case 1:
 YY_RULE_SETUP
-#line 22 "lexer.l"
+#line 22 "lexer360.l"
 ; 
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 23 "lexer.l"
+#line 23 "lexer360.l"
 ;
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 24 "lexer.l"
+#line 24 "lexer360.l"
 {return *yytext;}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 25 "lexer.l"
+#line 25 "lexer360.l"
 {return *yytext;}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 26 "lexer.l"
+#line 26 "lexer360.l"
 {return *yytext;}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 27 "lexer.l"
+#line 27 "lexer360.l"
 {return *yytext;}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 28 "lexer.l"
+#line 28 "lexer360.l"
 {return *yytext;}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 29 "lexer.l"
+#line 29 "lexer360.l"
 {return *yytext;}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 30 "lexer.l"
+#line 30 "lexer360.l"
 {return *yytext;}
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 31 "lexer.l"
+#line 31 "lexer360.l"
 {return *yytext;}
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 32 "lexer.l"
+#line 32 "lexer360.l"
 {return *yytext;}
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 33 "lexer.l"
+#line 33 "lexer360.l"
 {return *yytext;}
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 34 "lexer.l"
+#line 34 "lexer360.l"
 {return *yytext;}
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 35 "lexer.l"
+#line 35 "lexer360.l"
 {return *yytext;}
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 36 "lexer.l"
+#line 36 "lexer360.l"
 {
     yylval = strdup(yytext);
     return T_NUM;
@@ -731,7 +731,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 40 "lexer.l"
+#line 40 "lexer360.l"
 {
     yylval = strdup(yytext);
     return T_ID;
@@ -739,12 +739,12 @@ YY_RULE_SETUP
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 44 "lexer.l"
+#line 44 "lexer360.l"
 {}
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 45 "lexer.l"
+#line 45 "lexer360.l"
 ECHO;
 	YY_BREAK
 #line 751 "lex.yy.c"
@@ -1631,4 +1631,4 @@ int main()
 	return 0;
 	}
 #endif
-#line 45 "lexer.l"
+#line 45 "lexer360.l"

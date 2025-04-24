@@ -2,8 +2,11 @@
     #define YYSTYPE char*
     #include "y.tab.h"
     #include <stdio.h>
+    #include <string.h>  // Include this for strdup
     extern void yyerror(const char *); // declare the error handling function
 %}
+
+%option noyywrap
 
 /* Regular definitions */
 digit           [0-9]
